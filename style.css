@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Importar una fuente coreana elegante */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif; /* Fuente moderna y limpia */
+  text-align: center;
+}
+
+
+.tituloprincipal {
+  color: #6A1B9A; /* Un tono lila vibrante */
+  font-size: 2.2em;
+  text-align: center;
+  margin: 15px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid #C084FC; /* Línea decorativa sutil */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+  
+  .titulos {
+    color: #2E0E4D; /* Un morado profundo, elegante */
+    text-align: center;
+    font-size: 3em; /* Más grande y llamativo */
+    font-weight: 700; /* Negrita para resaltar */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+    background: linear-gradient(90deg, #9B67FF, #C084FC); /* Efecto degradado moderno */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* Hace que el texto tome el gradiente */
+  }
+  
+  .tops {
+    color: #6A1B9A; /* Un tono lila vibrante */
+    font-size: 2.2em;
+    text-align: center;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-bottom: 3px solid #C084FC; /* Línea decorativa sutil */
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+
+  body {
+    background-color: rgb(209, 237, 255);
+    
+    }
+  
+  
+  h1 {
+    color:rgba(65, 0, 150, 0.589);
+    font-size: 3em;  
+    text-align: center;
+  }
+  
+  p {
+    color: #3E2723;
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 1.8;
+    margin: 30px auto;
+    max-width: 750px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    padding: 0 15px;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.6); /* Fondo sutil para destacar */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  
+  .textos {
+    font-size: 1vw;  /* Se ajusta según el ancho de la pantalla */
+    text-align: center;
+    margin: 10px;
+  }
+  
+  figure {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;                  /* Espacio entre las imágenes */
+    align-items: flex-end;
+   }
+  
+  .galeria figure { 
+    margin: 0;
+    padding: 0;
+    max-width: 300px;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    }
+  
+  .galeria img {
+    width: 100%;
+    height: 350px;             /* Altura fija para alinear perfectamente */
+    object-fit: cover;         /* Recorta la imagen para evitar márgenes */
+    border-radius: 8px;
+    display: block;
+  }
+  
+  figcaption {
+    text-align: center;
+    padding: 5px 0;            /* Un poco de espacio para el texto */
+    font-style: italic;
+    color: rgb(10, 4, 4);
+  }
+  
+  
+  .sitios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px; /* Más espacio alrededor */
+  }
+  
+  .sitios figure {
+    margin: 20px; /* Mayor margen para dar aire */
+    padding: 15px;
+    background: #ffffff; /* Fondo blanco para destacar */
+    border-radius: 12px; /* Bordes suaves */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra ligera */
+    max-width: 350px;
+    text-align: center;
+  }
+  
+  .sitios img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .sitios figcaption {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  
+    
